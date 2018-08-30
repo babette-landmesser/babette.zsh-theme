@@ -16,4 +16,4 @@ vcs_status() {
     fi
 }
 
-PROMPT='%{$fg[red]%}%n%{$reset_color%}:%{$fg[green]%} %2~ %{$reset_color%}$(vcs_status)🐒 %b '
+PROMPT='%{$fg[lightblue]%}%n%{$reset_color%}:%{$fg[green]%}%1~ %{$reset_color%}$(vcs_status)🐒 %b '
