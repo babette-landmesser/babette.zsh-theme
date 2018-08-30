@@ -1,4 +1,4 @@
-ZSH_THEME_GIT_PROMPT_PREFIX="🐒 (%{$fg[yellow]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX=": (%{$fg[yellow]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$reset_color%}) 🔥 "
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$reset_color%}) ☀️ "
@@ -16,4 +16,4 @@ vcs_status() {
     fi
 }
 
-PROMPT='%2~ $(vcs_status)- %b '
+PROMPT='%2~ $(vcs_status)🐒 %b '
